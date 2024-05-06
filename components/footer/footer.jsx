@@ -136,8 +136,10 @@ const Footer = () => {
         <div className="flex flex-col items-start h-auto justify-between gap-16 w-2/4 max-lg:w-full pr-10 max-sm:pr-0">
           <div className="flex flex-col text-lg items-start  justify-between gap-10 ">
             <a href="/">
-              <img src="/Homyz-logo.png" className="w-36" alt="Homyz-logo" />
+              {/* <img src="/Homyz-logo.png" className="w-36" alt="Homyz-logo" /> */}
+              <strong>GIS LIMITED</strong>
             </a>
+
             <p style={{ color: "#696969" }}>
               We solve our clients’ challenges by providing on-time and
               on-budget GIS services and technical support. Our goal is to
