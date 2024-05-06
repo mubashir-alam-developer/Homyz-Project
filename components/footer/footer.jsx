@@ -137,7 +137,7 @@ const Footer = () => {
           <div className="flex flex-col text-lg items-start  justify-between gap-10 ">
             <a href="/">
               {/* <img src="/Homyz-logo.png" className="w-36" alt="Homyz-logo" /> */}
-              <strong>GIS LIMITED</strong>
+              <strong style={{ color: "#FFFFFF" }}>GIS LIMITED</strong>
             </a>
 
             <p style={{ color: "#696969" }}>

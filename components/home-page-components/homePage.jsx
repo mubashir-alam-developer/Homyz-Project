@@ -179,13 +179,17 @@ const HomePage = () => {
                 iconSrc={"/icons/reliability.png"}
                 iconAlt={"reliability"}
                 title={"Reliability"}
-                desc={""}
+                desc={
+                  " At GIS Limited, we prioritize reliability in every aspect of our services, ensuring your projects succeed."
+                }
               />
               <WhatWeDoCard
                 iconSrc={"/icons/communication.png"}
                 iconAlt={"communication"}
                 title={"communication"}
-                desc={""}
+                desc={
+                  "We believe in clear, open communication, fostering strong relationships and ensuring your project goals are met."
+                }
               />
             </div>
             <div className="flex flex-col gap-7">
@@ -197,7 +201,9 @@ const HomePage = () => {
                 iconSrc={"/icons/quality-first.png"}
                 iconAlt={"quality-first"}
                 title={"Quality First"}
-                desc={""}
+                desc={
+                  "Quality is not just our goal; it's our standard. We strive to exceed expectations with every GIS solution we deliver."
+                }
               />
               <div
                 style={{ height: 130 }}
