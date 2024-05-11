@@ -26,7 +26,7 @@ const ServicePage = ({ id, title, breif, descr, imageSrc }) => {
         style={{
           backgroundImage: `url(${imageSrc})`,
         }}
-        className="relative bg-no-repeat bg-center bg-cover pt-44 pb-36 max-md:pt-36 max-md:pb-24 flex justify-center items-center text-white "
+        className={`relative bg-no-repeat bg-center bg-cover pt-44 pb-36 max-md:pt-36 max-md:pb-24 flex justify-center items-center text-white ${id}`}
       >
         <div className="absolute top-0 bottom-0 left-0 right-0 bg-black/50"></div>
         <motion.h1
@@ -39,6 +39,7 @@ const ServicePage = ({ id, title, breif, descr, imageSrc }) => {
           {title}
         </motion.h1>
       </div>
+
       <div
         style={{ maxWidth: 1200 }}
         className=" mx-auto flex
@@ -55,40 +56,8 @@ const ServicePage = ({ id, title, breif, descr, imageSrc }) => {
             Tuning in to what really matters
           </h1>
           <div className="text-xl flex flex-col gap-3">
-            <p>
-              We provide enterprise GIS solutions, image processing, and
-              strategic advice, GIS system implementation, consultant training
-              and support, Customized application development; Location based
-              services, field data collection, data analysis and interpretation
-              for policy analysis and strategic planning
-            </p>
-            <p>
-              Test your ideas with minimal risk. Test even the most complex
-              ideas, involving emerging technologies – like blockchain – with
-              the help of our expert Outsourceo team. We’ll help you with
-              predictions, roadmapping and post-PoC Development analysis, to
-              identify the best-fit solution with minimal financial risk.
-            </p>
-            <p>
-              We help companies assess their skills and choose a new direction
-              which utilizes the talents of the team and resources most
-              productively.
-            </p>
-            <p>
-              As consumers have more and more product choices, the role of
-              design to bring clarity and relevance has never been more
-              necessary. Design will continue to be the significant difference
-              maker and the reason for choosing one product or experience over
-              another. On every product we look through the eyes of the user,
-              studying the experience critically and empathetically. Our
-              creative response combines strategy with execution to deliver
-              beautiful, innovative and differentiated design.
-            </p>
-            <p>
-              Our team of software experts will provide a comprehensive project
-              evaluation, allowing you to develop your roadmap for success that
-              maximises the efficiency of your future projects.
-            </p>
+            <p>{breif}</p>
+            <p>{descr}</p>
           </div>
           {/* <div className="mt-10">
             <Accordion

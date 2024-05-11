@@ -8,7 +8,7 @@ export const servicesData = [
       "We provide enterprise GIS solutions,image processing, and strategic advice, GIS system implementation, consultant training and support, Customized application development.",
     heading: "We provide enterprise GIS solutions, ",
     mainDescription:
-      "We believe that technology and human-centered design are revolutionizing brand experiences. Remarkable innovations are allowing products to become more sentient and connected, enabling greater connection between people. Our role is to ensure that each product experience is attuned to people’s needs and relevant to the rhythm and habits of their daily lives. Through first and secondary research, we identify what will really matter to users and we never let go of the vision that inspires great products.",
+      "Location based services, field data collection, data analysis and interpretation for policy analysis and strategic planning.",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ export const servicesData = [
       "We embrace a comprehensive and integrated approach, with local capacity that advocates a broad approach to sustainable development and understands the fundamental role that land use strategies and urban development plays.",
     heading: "Tuning in to what really matters",
     mainDescription:
-      "We believe that technology and human-centered design are revolutionizing brand experiences. Remarkable innovations are allowing products to become more sentient and connected, enabling greater connection between people. Our role is to ensure that each product experience is attuned to people’s needs and relevant to the rhythm and habits of their daily lives. Through first and secondary research, we identify what will really matter to users and we never let go of the vision that inspires great products.",
+      "This view incorporates institutional, economic and social governance as well as technical aspects, with an overarching livelihood enhancement objective. We embed sustainable design principles in all our projects, providing progressive private developers, international agencies and municipalities with state-of-the-art design and planning solutions .",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ export const servicesData = [
       "We endeavour to promote an integrated approach towards physical and land use planning that aims at unlocking and tapping onto the latent economic development opportunities for local benefit in a sustainable manner. .",
     heading: "Tuning in to what really matters",
     mainDescription:
-      "We believe that technology and human-centered design are revolutionizing brand experiences. Remarkable innovations are allowing products to become more sentient and connected, enabling greater connection between people. Our role is to ensure that each product experience is attuned to people’s needs and relevant to the rhythm and habits of their daily lives. Through first and secondary research, we identify what will really matter to users and we never let go of the vision that inspires great products.",
+      "Although Local Economic Development targets economic development opportunities, it encompasses various different elements such as socio-economic analysis, Environmental and Social Impact Assessment, Social Management and Resettlement action planning, Development Proposals and Strategies, Planning implementation facilitation and capacity building.",
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ export const servicesData = [
       "This aspect of our scope of service entails all the tools, systems and procedures required in order to manage land and its use effectively.",
     heading: "Tuning in to what really matters",
     mainDescription:
-      "We believe that technology and human-centered design are revolutionizing brand experiences. Remarkable innovations are allowing products to become more sentient and connected, enabling greater connection between people. Our role is to ensure that each product experience is attuned to people’s needs and relevant to the rhythm and habits of their daily lives. Through first and secondary research, we identify what will really matter to users and we never let go of the vision that inspires great products.",
+      "Development applications are some of the critical components and include subdivision planning, change and extension of use, building plan and zoning regulation reviews. Other typical elements of a Land Use Management System include, inter alia, a Physical and Land Use Planning regulations; Strategic plans such as sector plans dealing with land development; Valuation and rating system; Property registration (land audit), ownership and tenure; and Geographic information systems (GIS).",
   },
   {
     id: 5,
@@ -52,7 +52,7 @@ export const servicesData = [
       "GIS Limited has been actively involved in developing and building capacity for local government structures since its inception and active consultancy in planning and GIS services.",
     heading: "Tuning in to what really matters",
     mainDescription:
-      "We believe that technology and human-centered design are revolutionizing brand experiences. Remarkable innovations are allowing products to become more sentient and connected, enabling greater connection between people. Our role is to ensure that each product experience is attuned to people’s needs and relevant to the rhythm and habits of their daily lives. Through first and secondary research, we identify what will really matter to users and we never let go of the vision that inspires great products.",
+      "Local governments are closer to the communities, and should therefore be enable to undertake its constitutional responsibilities effectively and efficiently. This includes undertaking development planning, delivery of services and coordinating development within their areas of jurisdiction. The company has participated in a number of personnel training initiatives intended to provide support and build the capacity of local government in this regard.",
   },
   {
     id: 6,
@@ -62,6 +62,6 @@ export const servicesData = [
     shortDescription: "See to the integrity and security of your records.",
     heading: "Tuning in to what really matters",
     mainDescription:
-      "We believe that technology and human-centered design are revolutionizing brand experiences. Remarkable innovations are allowing products to become more sentient and connected, enabling greater connection between people. Our role is to ensure that each product experience is attuned to people’s needs and relevant to the rhythm and habits of their daily lives. Through first and secondary research, we identify what will really matter to users and we never let go of the vision that inspires great products.",
+      "•	Master Planning and Urban Design, including Green City Planning, New Town and Community Development, Central Area Planning, Commercial/Retail Planning, Residential Development, and Tourism/Recreation Planning and Development, Urban Planning and Development ,Urban RegenerationUrban Conservation Policy and Practice ,Social Development and Poverty Alleviation ,Institutional Development and Governance, 	Inter-Cultural Dialogue, Capacity Building and TrainingUrban Research,	Project Management",
   },
 ];
