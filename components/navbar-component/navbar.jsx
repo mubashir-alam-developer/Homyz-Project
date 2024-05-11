@@ -272,7 +272,15 @@ const NavBar = ({ navBar2, showCase1Page }) => {
               Our Services
             </Link>
 
-            <div className="showcase-menu cursor-pointer hover:text-red-500 transition-all relative">
+            <Link
+              onClick={scrollToTop}
+              className="hover:text-red-500 transition-all"
+              to="/showcases/showcase1"
+            >
+              PortFolio
+            </Link>
+
+            {/* <div className="showcase-menu cursor-pointer hover:text-red-500 transition-all relative">
               PortFolio
               <div className="showcase-list hidden absolute cursor-default -left-4 ">
                 <ul
@@ -307,7 +315,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
             <Link
               onClick={scrollToTop}
               className="hover:text-red-500 transition-all"
@@ -416,76 +424,42 @@ const NavBar = ({ navBar2, showCase1Page }) => {
           >
             Our Services
           </Link>
-          <div className="relative">
-            <div
-              onClick={() => {
-                setShowcaseDropDown(!showcaseDropDown);
-              }}
-              className="flex justify-between hover:text-red-500 max-sm:hover:text-black transition-all items-center cursor-pointer"
-            >
-              <p className="transition-all">PortFolio</p>
-              <FaAngleDown
-                className={`${
-                  showcaseDropDown ? "-rotate-180" : "rotate-0"
-                } transition-all `}
-              />
-            </div>
-            <ul
-              className={`flex flex-col gap-2 mt-3 pl-5 transition-all duration-300 origin-top  `}
-            >
-              <Link
-                onClick={() => {
-                  hideNav();
-                  scrollToTop();
-                }}
-                className="hover:text-red-500 transition-all"
-                to={"/showcases/showcase1"}
-              >
-                Urban Planning Projects
-              </Link>
-              <Link
-                onClick={() => {
-                  hideNav();
-                  scrollToTop();
-                }}
-                to={"/showcases/showcase2"}
-                className="hover:text-red-500 transition-all"
-              >
-                GIS Based Projects
-              </Link>
-            </ul>
-            <div
-              className={`${
-                showcaseDropDown ? "top-[114px]" : "top-[41px]"
-              } transition-all duration-200 absolute  w-full bg-white h-24`}
-            >
-              <Link
-                onClick={() => {
-                  hideNav();
-                  scrollToTop();
-                }}
-                to={"/about"}
-                className="hover:text-red-500 transition-all w-full block"
-              >
-                About
-              </Link>
-              <Link
-                onClick={() => {
-                  hideNav();
-                  scrollToTop();
-                }}
-                to={"/contact"}
-                className="hover:text-red-500 transition-all w-full block"
-              >
-                <Button
-                  content={"Contact Us"}
-                  fontSize={""}
-                  padding={"py-[6px] px-3"}
-                  furtherClasses={" mt-4"}
-                />
-              </Link>
-            </div>
-          </div>
+
+          <Link
+            onClick={() => {
+              hideNav();
+              scrollToTop();
+            }}
+            to="/showcases/showcase1"
+            className="hover:text-red-500 transition-all"
+          >
+            PortFolio
+          </Link>
+          <Link
+            onClick={() => {
+              hideNav();
+              scrollToTop();
+            }}
+            to={"/about"}
+            className="hover:text-red-500 transition-all w-full block"
+          >
+            About
+          </Link>
+          <Link
+            onClick={() => {
+              hideNav();
+              scrollToTop();
+            }}
+            to={"/contact"}
+            className="hover:text-red-500 transition-all w-full block"
+          >
+            <Button
+              content={"Contact Us"}
+              fontSize={""}
+              padding={"py-[6px] px-3"}
+              furtherClasses={" mt-4"}
+            />
+          </Link>
         </ul>
       </nav>
     </>

@@ -56,14 +56,11 @@ const ServicePage = ({ id, title, breif, descr, imageSrc }) => {
           </h1>
           <div className="text-xl flex flex-col gap-3">
             <p>
-              We believe that technology and human-centered design are
-              revolutionizing brand experiences. Remarkable innovations are
-              allowing products to become more sentient and connected, enabling
-              greater connection between people. Our role is to ensure that each
-              product experience is attuned to people’s needs and relevant to
-              the rhythm and habits of their daily lives. Through first and
-              secondary research, we identify what will really matter to users
-              and we never let go of the vision that inspires great products.
+              We provide enterprise GIS solutions, image processing, and
+              strategic advice, GIS system implementation, consultant training
+              and support, Customized application development; Location based
+              services, field data collection, data analysis and interpretation
+              for policy analysis and strategic planning
             </p>
             <p>
               Test your ideas with minimal risk. Test even the most complex
@@ -92,15 +89,8 @@ const ServicePage = ({ id, title, breif, descr, imageSrc }) => {
               evaluation, allowing you to develop your roadmap for success that
               maximises the efficiency of your future projects.
             </p>
-            <p>
-              When it comes to encapsulating technical innovation in a form that
-              chimes with an end user, our early involvement, often before the
-              science leaves the bench, can help to ensure that the human
-              factors as well as the production design issues are considered at
-              the optimum stage in the process.
-            </p>
           </div>
-          <div className="mt-10">
+          {/* <div className="mt-10">
             <Accordion
               className="text-xl flex flex-col gap-5 "
               allowToggle={true}
@@ -188,19 +178,20 @@ const ServicePage = ({ id, title, breif, descr, imageSrc }) => {
                 </AccordionPanel>
               </AccordionItem>
             </Accordion>
-            <div className="fixed bottom-0 right-0 m-4">
-              <Link
-                to="https://wa.me/+2547"
-                target="_blank"
-                class="whatsapp-popup"
-                className="flex items-center"
-              >
-                <FaWhatsapp
-                  size={50}
-                  className="text-4xl text-green-500 animate-pulse"
-                />
-              </Link>
-            </div>
+            
+          m</div> */}
+          <div className="fixed bottom-0 right-0 m-4">
+            <Link
+              to="https://wa.me/+2547"
+              target="_blank"
+              class="whatsapp-popup"
+              className="flex items-center"
+            >
+              <FaWhatsapp
+                size={50}
+                className="text-4xl text-green-500 animate-pulse"
+              />
+            </Link>
           </div>
         </motion.div>
         <motion.div
@@ -217,19 +208,22 @@ const ServicePage = ({ id, title, breif, descr, imageSrc }) => {
             <div>
               <FaEnvelope className="text-red-500" />
             </div>
-            <p>Office # 420 DHA Phase 90, Karachi, PK</p>
+            <p>
+              Office is in Nakuru Town along Mudavadi Road, on the second floor
+              of Sansora building, room 14
+            </p>
           </div>
           <div className="flex  gap-3 text-xl items-center">
             <div>
               <FaPhone className="rotate-90 text-red-500" />
             </div>
-            <p>+92 39283848238</p>
+            <p>+254721224735</p>
           </div>
           <div className="flex  gap-3 text-xl items-center">
             <div>
               <FaMapMarkerAlt className="text-red-500" />
             </div>
-            <p>information@office.com</p>
+            <p>info@gis.co.ke</p>
           </div>
           <Link
             to="/contact"
@@ -243,7 +237,6 @@ const ServicePage = ({ id, title, breif, descr, imageSrc }) => {
           </Link>
         </motion.div>
       </div>
-      <FreeTrial />
     </>
   );
 };
