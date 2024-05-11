@@ -10,6 +10,7 @@ import Carousel from "../home-page-components/carousel";
 import PartnerBrandCard from "../home-page-components/partnerBrandCard";
 import { partnerBrands } from "../../constants/partnerBrands";
 import "./about.css";
+import { FaWhatsapp } from "react-icons/fa";
 
 const AboutPage = () => {
   return (
@@ -236,6 +237,19 @@ const AboutPage = () => {
                 urna in elit amet.
               </p>
             </motion.div>
+            <div className="fixed bottom-0 right-0 m-4">
+              <Link
+                to="https://wa.me/+2547"
+                target="_blank"
+                class="whatsapp-popup"
+                className="flex items-center"
+              >
+                <FaWhatsapp
+                  size={50}
+                  className="text-4xl text-green-500 animate-pulse"
+                />
+              </Link>
+            </div>
           </div>
         </div>
       </div>

@@ -6,6 +6,7 @@ import "./homePage.css";
 import { Link, useNavigate } from "react-router-dom";
 import { scrollToTop } from "../../constants/scrollToTop";
 import { useToast } from "@chakra-ui/react";
+import { FaWhatsapp } from "react-icons/fa";
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -308,6 +309,19 @@ const HomePage = () => {
               </motion.div>
             </div>
           </div>
+        </div>
+        <div className="fixed bottom-0 right-0 m-4">
+          <Link
+            to="https://wa.me/+2547"
+            target="_blank"
+            class="whatsapp-popup"
+            className="flex items-center"
+          >
+            <FaWhatsapp
+              size={50}
+              className="text-4xl text-green-500 animate-pulse"
+            />
+          </Link>
         </div>
       </div>
       {/* appreciation section end */}

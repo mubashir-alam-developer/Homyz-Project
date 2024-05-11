@@ -2,6 +2,7 @@ import "./service.css";
 import ServiceCard from "./serviceCard";
 import { servicesData } from "../../constants/servicesData";
 import { motion } from "framer-motion";
+import { FaWhatsapp } from "react-icons/fa";
 import { animationVariants } from "../../constants/animationVariants";
 const ServicesComponent = () => {
   return (
@@ -34,6 +35,7 @@ const ServicesComponent = () => {
           </div>
         </motion.div>
       </div>
+
       <div
         style={{ maxWidth: 1200 }}
         className="mx-auto grid grid-cols-2 max-md:grid-rows-6 max-md:grid-cols-1 grid-rows-3 p-10 max-lg:px-5 gap-5"
