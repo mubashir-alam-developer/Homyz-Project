@@ -18,7 +18,7 @@ const AboutProject = ({ heroImageSrc, attachment }) => {
   const param = useParams();
   const project = showCase[param.id - 1];
   useEffect(() => {
-    document.title = `${project.city} - Homyz `;
+    document.title = `${project.city} - GIS LIMITED`;
   }, [param]);
   return (
     <div className="overflow-hidden">
@@ -70,15 +70,15 @@ const AboutProject = ({ heroImageSrc, attachment }) => {
         >
           <div className="">
             <h2 className="text-xl mb-2 ">Client</h2>
-            <h3 className="text-xl opacity-80">Insight Studio</h3>
+            <h3 className="text-xl opacity-80">lorem</h3>
           </div>
           <div className="">
             <h2 className="text-xl mb-2 ">Date</h2>
-            <h3 className="text-xl opacity-80">December 7, 2022</h3>
+            <h3 className="text-xl opacity-80">ipsum</h3>
           </div>
           <div className="">
             <h2 className="text-xl mb-2 ">Services</h2>
-            <h3 className="text-xl opacity-80">Art Direction, Website</h3>
+            <h3 className="text-xl opacity-80">dolor sit</h3>
           </div>
           <div className="">
             <h2 className="text-xl mb-2 ">Share on</h2>
