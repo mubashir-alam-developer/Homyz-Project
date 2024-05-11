@@ -16,7 +16,7 @@ export const servicesData = [
     title: "Physical and Land Use Planning",
     icon: "/Services/icons/cloud-migration-icon.png",
     shortDescription:
-      "We embrace a comprehensive and integrated approach, with local capacity that advocates a broad approach to sustainable development and understands the fundamental role that land use strategies and urban development plays.",
+      "We embrace a comprehensive and integrated approach, with local capacity that advocates a broad approach to sustainable development.",
     heading: "Tuning in to what really matters",
     mainDescription:
       "This view incorporates institutional, economic and social governance as well as technical aspects, with an overarching livelihood enhancement objective. We embed sustainable design principles in all our projects, providing progressive private developers, international agencies and municipalities with state-of-the-art design and planning solutions .",
@@ -27,7 +27,7 @@ export const servicesData = [
     title: "Local Economic Development",
     icon: "/Services/icons/poc-development-icon.png",
     shortDescription:
-      "We endeavour to promote an integrated approach towards physical and land use planning that aims at unlocking and tapping onto the latent economic development opportunities for local benefit in a sustainable manner. .",
+      "We endeavour to promote an integrated approach towards physical and land use planning .",
     heading: "Tuning in to what really matters",
     mainDescription:
       "Although Local Economic Development targets economic development opportunities, it encompasses various different elements such as socio-economic analysis, Environmental and Social Impact Assessment, Social Management and Resettlement action planning, Development Proposals and Strategies, Planning implementation facilitation and capacity building.",
@@ -38,7 +38,7 @@ export const servicesData = [
     title: "Development Control and Property Management",
     icon: "/Services/icons/smart-team-icon.png",
     shortDescription:
-      "This aspect of our scope of service entails all the tools, systems and procedures required in order to manage land and its use effectively.",
+      "This aspect of our scope of service entails all the tools, systems and procedures required in order to manage land .",
     heading: "Tuning in to what really matters",
     mainDescription:
       "Development applications are some of the critical components and include subdivision planning, change and extension of use, building plan and zoning regulation reviews. Other typical elements of a Land Use Management System include, inter alia, a Physical and Land Use Planning regulations; Strategic plans such as sector plans dealing with land development; Valuation and rating system; Property registration (land audit), ownership and tenure; and Geographic information systems (GIS).",
