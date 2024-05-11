@@ -177,10 +177,7 @@ const ServicePage = ({ id, title, breif, descr, imageSrc }) => {
             <div>
               <FaEnvelope className="text-red-500" />
             </div>
-            <p>
-              Office is in Nakuru Town along Mudavadi Road, on the second floor
-              of Sansora building, room 14
-            </p>
+            <p>info@gis.co.ke</p>
           </div>
           <div className="flex  gap-3 text-xl items-center">
             <div>
@@ -192,7 +189,11 @@ const ServicePage = ({ id, title, breif, descr, imageSrc }) => {
             <div>
               <FaMapMarkerAlt className="text-red-500" />
             </div>
-            <p>info@gis.co.ke</p>
+            <p>
+              {" "}
+              Office is in Nakuru Town along Mudavadi Road, on the second floor
+              of Sansora building, room 14
+            </p>
           </div>
           <Link
             to="/contact"
