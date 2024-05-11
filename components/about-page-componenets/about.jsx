@@ -196,13 +196,13 @@ const AboutPage = () => {
               viewport={{ once: true, amount: 0.2 }}
               className="border-t-2 text-xl border-black/20 pt-4"
             >
-              <h2 className="title-font font-semibold">-01</h2>
+              <h2 className="title-font font-semibold"></h2>
               <h2 className="title-font mt-7  font-medium text-red-500">
-                Residential
+                Our Mission
               </h2>
               <p className="mt-2">
-                Lorem ipsum dolor sit amet consectetur. Malesuada vehicula netus
-                urna in elit amet.
+                To provide dependable professional Planning, GIS and Development
+                Consultancy services.
               </p>
             </motion.div>
             <motion.div
@@ -212,13 +212,13 @@ const AboutPage = () => {
               viewport={{ once: true, amount: 0.2 }}
               className="border-t-2 text-xl border-black/20 pt-4"
             >
-              <h2 className="title-font font-semibold">-01</h2>
+              <h2 className="title-font font-semibold"></h2>
               <h2 className="title-font mt-7  font-medium text-red-500">
-                Residential
+                Our Vision
               </h2>
               <p className="mt-2">
-                Lorem ipsum dolor sit amet consectetur. Malesuada vehicula netus
-                urna in elit amet.
+                To be a globally reliable professional Planning, GIS and
+                Development Consultancy Company
               </p>
             </motion.div>
             <motion.div
@@ -228,13 +228,13 @@ const AboutPage = () => {
               viewport={{ once: true, amount: 0.2 }}
               className="border-t-2 text-xl border-black/20 pt-4"
             >
-              <h2 className="title-font font-semibold">-01</h2>
+              <h2 className="title-font font-semibold"></h2>
               <h2 className="title-font mt-7  font-medium text-red-500">
-                Residential
+                Our Goal
               </h2>
               <p className="mt-2">
-                Lorem ipsum dolor sit amet consectetur. Malesuada vehicula netus
-                urna in elit amet.
+                to ensure that every client is completely satisfied with the
+                products and services that we provide.
               </p>
             </motion.div>
             <div className="fixed bottom-0 right-0 m-4">
