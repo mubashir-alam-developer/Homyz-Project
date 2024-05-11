@@ -38,7 +38,7 @@ export const servicesData = [
     title: "Development Control and Property Management",
     icon: "/Services/icons/smart-team-icon.png",
     shortDescription:
-      "This aspect of our scope of service entails all the tools, systems and procedures required in order to manage land .",
+      "This aspect of our scope of service entails all the tools, systems and procedures required .",
     heading: "Tuning in to what really matters",
     mainDescription:
       "Development applications are some of the critical components and include subdivision planning, change and extension of use, building plan and zoning regulation reviews. Other typical elements of a Land Use Management System include, inter alia, a Physical and Land Use Planning regulations; Strategic plans such as sector plans dealing with land development; Valuation and rating system; Property registration (land audit), ownership and tenure; and Geographic information systems (GIS).",
