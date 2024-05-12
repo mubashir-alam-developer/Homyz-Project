@@ -120,9 +120,9 @@ const HomePage = () => {
               viewport={{ once: true, amount: 0.2 }}
             >
               <p className="text-xl">
-                To provide dependable professional Planning, GIS and Development
-                Consultancy services that meets our clients’ desires and
-                promotes sustainable development.
+                Here to provide dependable professional Planning, GIS and
+                Development Consultancy services that meets our clients’ desires
+                and promotes sustainable development.
               </p>
               <Link onClick={scrollToTop} to={"/about"}>
                 <Button
