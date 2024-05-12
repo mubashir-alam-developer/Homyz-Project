@@ -233,7 +233,7 @@ const HomePage = () => {
               variants={animationVariants.fadeLeft}
               className="text-5xl max-md:text-4xl font-semibold"
             >
-              We use Real Estate to show our appreciation of the world.
+              We use GIS services to show our appreciation of the world.
             </motion.h1>
             <motion.p
               variants={animationVariants.fadeLeft}
