@@ -2,10 +2,19 @@ export const showCase = [
   {
     id: 1,
     city: "Lamu",
+    client:"Murang'a County Government",
+    start_date:"24-04-2002",
+    end_date:"25-12-2029",
+    services:"planning",
     shortDescription:
       "Lamu, the vibrant metropolis on the shores of the Indian ocean, is a melting pot of diverse cultures, bustling with energy.",
     description:
       "Preparation of Local Physical and Land Use Planning of Vipingoni and Mkokoni Phase II (2021-2031)",
+      title1:"",
+      info1:"",
+      title2:"",
+      info2:"",
+      info3:"",
     coverImage: "/Project-showcase/Karachi/Dolmen-bahria-towers.jpg",
     moreImages: [
       "/Project-showcase/Karachi/Street-view.jpg",
@@ -19,10 +28,19 @@ export const showCase = [
   {
     id: 2,
     city: "Nakuru",
+    client:"Murang'a County Government",
+    start_date:"24-04-2002",
+    end_date:"25-12-2029",
+    services:"planning",
     shortDescription:
       "Nakuru, is nestled among picturesque hills, renowned for its well-planned infrastructure and green spaces.",
     description:
       "Preparation of Local Physical and Land Use Development Planning for 29 Market Centres in Nakuru County (2020 -2030)",
+      title1:"",
+      info1:"",
+      title2:"",
+      info2:"",
+      info3:"",
     coverImage: "/Project-showcase/Islamabad/Faisal-mosque.jpg",
     moreImages: [
       "/Project-showcase/Islamabad/Fatima-Jinnah-Park.jpg",
@@ -36,10 +54,19 @@ export const showCase = [
   {
     id: 3,
     city: "Murang'a",
+    client:"Murang'a County Government",
+    start_date:"24-04-2002",
+    end_date:"25-12-2029",
+    services:"planning",
     shortDescription:
       "Murang'a, captivates visitors with its grand  architecture, making it a county that embraces history, art, and a vibrant zest for life.",
     description:
       "Preparation of Integrated Strategic Development Plans for Murang’a and Kiambu Counties within the Nairobi Metropolitan Region.",
+      title1:"",
+      info1:"",
+      title2:"",
+      info2:"",
+      info3:"",
     coverImage: "/Project-showcase/Lahore/Badshahi-mosque.jpg",
     moreImages: [
       "/Project-showcase/Lahore/Minar-e-pakistan.jpg",
@@ -53,9 +80,18 @@ export const showCase = [
   {
     id: 4,
     city: "Makueni",
+    client:"Murang'a County Government",
+    start_date:"24-04-2002",
+    end_date:"25-12-2029",
+    services:"planning",
     shortDescription:
       "Makueni, enchants with its breathtaking natural beauty and landscapes.",
     description: "Finalisation of the Makueni County Spatial Plan 2019-2029",
+    title1:"",
+    info1:"",
+    title2:"",
+    info2:"",
+    info3:"",
     coverImage: "/Project-showcase/Quetta/Quaid-e-azam-residency.jpg",
     moreImages: [
       "/Project-showcase/Quetta/Hanna-lake.jpg",
@@ -69,10 +105,19 @@ export const showCase = [
   {
     id: 5,
     city: "Marsabit",
+    client:"Murang'a County Government",
+    start_date:"24-04-2002",
+    end_date:"25-12-2029",
+    services:"planning",
     shortDescription:
       "Marsabit, carries a rich cultural heritage with its bustling markets, ancient landmarks.",
     description:
       "Preparation of the Marsabit Town Integrated Master Plan (2015-2030)",
+    title1:"",
+    info1:"",
+    title2:"",
+    info2:"",
+    info3:"",
     coverImage: "/Project-showcase/Peshawar/Baab-e-khyber.jpg",
     moreImages: [
       "/Project-showcase/Peshawar/Islamia-college.jpg",
@@ -86,10 +131,19 @@ export const showCase = [
   {
     id: 6,
     city: "Narok",
+    client:"Murang'a County Government",
+    start_date:"24-04-2002",
+    end_date:"25-12-2029",
+    services:"planning",
     shortDescription:
       "Narok allures visitors with its cool climate, verdant forests, and panoramic views.",
     description:
       "Preparation of the Integrated Strategic Urban Development Plan for Narok Town (2012-2030)",
+      title1:"",
+      info1:"",
+      title2:"",
+      info2:"",
+      info3:"",
     coverImage: "/Project-showcase/Murree/Hills-view.jpg",
     moreImages: [
       "/Project-showcase/Murree/Attabad-lake.jpg",
