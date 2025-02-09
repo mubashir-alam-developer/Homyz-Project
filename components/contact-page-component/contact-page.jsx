@@ -70,26 +70,24 @@ const ContactPage = () => {
 
     if (errors === false) {
       setBtnLoader(true);
-      axios
-        .post("https://formsubmit.co/your@gmail.com", formData)
-        .then((response) => {
-          showToast();
-          setFormData({
-            firstName: "",
-            lastName: "",
-            phoneNo: "",
-            email: "",
-            message: "",
-          });
-          setBtnLoader(false);
-          // Handle the response data if necessary
-          console.log(response.data); // Example: Log the response data for debugging
-        })
-        .catch((error) => {
-          setBtnLoader(false);
-          errorToast(error.message, "error");
-          console.error("Error submitting form:", error);
-        });
+    
+      // Create the mailto link
+      const mailtoLink = `mailto:info@gis.co.ke?subject=Contact Form Submission&body=First Name: ${formData.firstName}
+      %0D%0ALast Name: ${formData.lastName}%0D%0APhone: ${formData.phoneNo}
+      %0D%0AEmail: ${formData.email}%0D%0AMessage: ${formData.message}`;
+    
+      // Trigger the mailto action
+      window.location.href = mailtoLink;
+    
+      // Reset form data and loader state
+      setFormData({
+        firstName: "",
+        lastName: "",
+        phoneNo: "",
+        email: "",
+        message: "",
+      });
+      setBtnLoader(false);
     }
   };
 
@@ -745,6 +743,7 @@ const ContactPage = () => {
             </div>
           </Accordion>
         </motion.div>
+       
       </div>
       {/* what we do section end */}
     </div>
