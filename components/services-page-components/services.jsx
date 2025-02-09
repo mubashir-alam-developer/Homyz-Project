@@ -2,7 +2,7 @@ import "./service.css";
 import ServiceCard from "./serviceCard";
 import { servicesData } from "../../constants/servicesData";
 import { motion } from "framer-motion";
-import { FaWhatsapp } from "react-icons/fa";
+
 import { animationVariants } from "../../constants/animationVariants";
 const ServicesComponent = () => {
   return (

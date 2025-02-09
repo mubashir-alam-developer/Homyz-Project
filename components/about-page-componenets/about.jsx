@@ -38,11 +38,11 @@ const AboutPage = () => {
           </div>
           <div className="flex gap-12 max-sm:text-center text-white">
             <div className="flex max-md:items-center flex-col gap-4">
-              <h2 className="text-4xl title-font font-bold">200+</h2>
+              <h2 className="text-4xl title-font font-bold">20+</h2>
               <p className="text-lg">Completed Projects</p>
             </div>
             <div className="flex max-md:items-center flex-col gap-4">
-              <h2 className="text-4xl  title-font font-bold">100+</h2>
+              <h2 className="text-4xl  title-font font-bold">10+</h2>
               <p className="text-lg">Clients</p>
             </div>
           </div>
@@ -150,16 +150,16 @@ const AboutPage = () => {
             <h2 className="text-2xl">Our Projects</h2>
             <div className="relative w-fit max-md:mx-auto -mt-7 max-md:-mt-5">
               <h1 className="text-[150px] max-sm:text-[120px] font-semibold relative text-red-500">
-                200+
+                20+
               </h1>
-              <div
+              {/* <div
                 className="absolute z-50 top-0 right-0 left-0 bottom-0 bg-no-repeat "
                 style={{
                   backgroundImage: "url(/200+.png)",
                   backgroundPosition: "40% 100%",
                   backgroundSize: "95%",
                 }}
-              ></div>
+              ></div> */}
             </div>
           </motion.div>
         </div>
@@ -237,19 +237,7 @@ const AboutPage = () => {
                 products and services that we provide.
               </p>
             </motion.div>
-            <div className="fixed bottom-0 right-0 m-4">
-              <Link
-                to="https://wa.me/+2547"
-                target="_blank"
-                class="whatsapp-popup"
-                className="flex items-center"
-              >
-                <FaWhatsapp
-                  size={50}
-                  className="text-4xl text-green-500 animate-pulse"
-                />
-              </Link>
-            </div>
+            
           </div>
         </div>
       </div>

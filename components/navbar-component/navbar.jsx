@@ -272,13 +272,13 @@ const NavBar = ({ navBar2, showCase1Page }) => {
               Our Services
             </Link>
 
-            <Link
+            {/* <Link
               onClick={scrollToTop}
               className="hover:text-red-500 transition-all"
               to="/showcases/showcase1"
             >
               PortFolio
-            </Link>
+            </Link> */}
 
             {/* <div className="showcase-menu cursor-pointer hover:text-red-500 transition-all relative">
               PortFolio
@@ -425,7 +425,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
             Our Services
           </Link>
 
-          <Link
+          {/* <Link
             onClick={() => {
               hideNav();
               scrollToTop();
@@ -434,7 +434,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
             className="hover:text-red-500 transition-all"
           >
             PortFolio
-          </Link>
+          </Link> */}
           <Link
             onClick={() => {
               hideNav();

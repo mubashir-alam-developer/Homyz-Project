@@ -220,14 +220,14 @@ const HomePage = () => {
       <div className="bg-white">
         <div
           style={{ maxWidth: 1200 }}
-          className="p-10 max-md:px-5 py-28 mx-auto grid grid-cols-2 grid-rows-1 gap-20 max-lg:grid-cols-1 max-lg:grid-rows-2 "
+          className="max-md:px-5 py-10 mx-auto grid grid-cols-2 grid-rows-1 gap-10 max-lg:grid-cols-1 max-lg:grid-rows-2 "
         >
           <motion.div
             initial="initial"
             whileInView="animate"
             viewport={{ once: true, amount: 0.2 }}
             transition={{ staggerChildren: 0.1 }}
-            className="w-full max-lg:w-full flex flex-col  items-start max-lg:items-center max-lg:text-center gap-7"
+            className="w-full max-lg:w-full flex flex-col  items-start max-lg:items-center max-lg:text-center gap-5"
           >
             <motion.h1
               variants={animationVariants.fadeLeft}
@@ -289,39 +289,26 @@ const HomePage = () => {
               </Link>
             </motion.div>
           </motion.div>
-          <div className="w-full max-lg:w-full h-full max-sm:max-h-[500px] ">
-            <div className=" h-full w-full relative overflow-hidden rounded-lg">
+          <div className="w-full max-lg:w-full h-full max-sm:max-h-[500px] gap-1 ">
+            <div className=" h-full w-full  relative overflow-hidden rounded-lg">
               <img
                 src="/appriciation-section-image.jpg"
                 className="absolute w-full h-full object-cover object-center "
                 alt=""
               />
-              <div className="absolute w-full h-full bg-black/50 "></div>
+              <div className="absolute w-full h-full bg-black/50 py-0 "></div>
 
               <motion.div
                 initial="initial"
                 whileInView="animate"
                 variants={animationVariants.toLeft}
                 viewport={{ once: true, amount: 0.2 }}
-                className="absolute w-full h-full bg-white origin-left z-20 "
+                className="absolute w-full h-full bg-white origin-left z-20  "
               >
                 <div className=""></div>
               </motion.div>
             </div>
           </div>
-        </div>
-        <div className="fixed bottom-0 right-0 m-4">
-          <Link
-            to="https://wa.me/+2547"
-            target="_blank"
-            class="whatsapp-popup"
-            className="flex items-center"
-          >
-            <FaWhatsapp
-              size={50}
-              className="text-4xl text-green-500 animate-pulse"
-            />
-          </Link>
         </div>
       </div>
       {/* appreciation section end */}

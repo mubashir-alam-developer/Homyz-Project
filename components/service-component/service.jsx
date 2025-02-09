@@ -12,7 +12,7 @@ import {
   FaEnvelope,
   FaMapMarkerAlt,
   FaPhone,
-  FaWhatsapp,
+
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import FreeTrial from "../free-trial-component/freeTrial";
@@ -149,19 +149,7 @@ const ServicePage = ({ id, title, breif, descr, imageSrc }) => {
             </Accordion>
             
           m</div> */}
-          <div className="fixed bottom-0 right-0 m-4">
-            <Link
-              to="https://wa.me/+2547"
-              target="_blank"
-              class="whatsapp-popup"
-              className="flex items-center"
-            >
-              <FaWhatsapp
-                size={50}
-                className="text-4xl text-green-500 animate-pulse"
-              />
-            </Link>
-          </div>
+         
         </motion.div>
         <motion.div
           initial="initial"

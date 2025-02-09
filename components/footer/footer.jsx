@@ -128,10 +128,10 @@ const Footer = () => {
   // You can add more validations based on your requirements
 
   return (
-    <div className="bg-black">
+    <div className="bg-black ">
       <footer
         style={{ maxWidth: 1200 }}
-        className="mx-auto flex justify-between gap-20 max-lg:flex-col py-20 px-8 max-sm:px-5  "
+        className="mx-auto flex justify-between gap-10 max-lg:flex-col py-10 px-8 max-sm:px-5  "
       >
         <div className="flex flex-col items-start h-auto justify-between gap-16 w-2/4 max-lg:w-full pr-10 max-sm:pr-0">
           <div className="flex flex-col text-lg items-start  justify-between gap-10 ">
@@ -146,17 +146,6 @@ const Footer = () => {
               ensure that every client is completely satisfied with the products
               and services that we provide.
             </p>
-            <div className="flex text-xl justify-start items-center gap-10 text-red-500">
-              <Link target="_blank" to={"https://facebook.com"}>
-                <FaFacebookF />
-              </Link>
-              <Link target="_blank" to={"https://instagram.com"}>
-                <FaInstagram />
-              </Link>
-              <Link target="_blank" to={"https://twitter.com"}>
-                <FaTwitter />
-              </Link>
-            </div>
             <ul className="text-white text-lg flex justify-start items-center flex-wrap gap-x-8 gap-y-4">
               <Link
                 onClick={scrollToTop}
@@ -299,7 +288,7 @@ const Footer = () => {
           ></iframe>
 
           <p style={{ color: "#696969" }}>
-            © GIS Limited. All Rights Reserved 2024.
+            © GIS Limited. All Rights Reserved 2025.
           </p>
         </div>
       </footer>
